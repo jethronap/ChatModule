@@ -32,7 +32,7 @@
         <main>
             <div class="wrapper">
                 <h1>Welcome!</h1>
-                <span>{{greeting}}</span>
+<!--                <span>{{greeting}}</span>-->
                 <a href="${pageContext.request.contextPath}/login">Click to login.</a>
             </div>
         </main>
