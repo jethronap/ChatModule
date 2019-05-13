@@ -1,1 +1,1 @@
-Simple Chat Module using Spring MVC 5, Spring Secuity 5 & WebSockets
+Simple Chat Module using Spring MVC 5, Spring Security 5 & WebSockets
