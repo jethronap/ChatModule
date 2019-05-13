@@ -12,7 +12,7 @@
 <html ng-app='angularApp'>
 
     <head>
-        <title>Spring Secured Sockets</title>
+        <title>Chat Room App</title>
         <link href="<c:url value="/resources/styles/app.css"/>" rel="stylesheet">
         <link href="<c:url value="/resources/styles/login.css"/>" rel="stylesheet">
 
@@ -33,7 +33,7 @@
         <main>
             <div class="wrapper">
                 <!-- Must match the endpoint specified in security config -->
-                <h1>JSP Login Form</h1>
+                <h1>Login To Chat With Us</h1>
                 <form name='f' action="authenticate" method='POST'>
                     <table>
                         <tr>
