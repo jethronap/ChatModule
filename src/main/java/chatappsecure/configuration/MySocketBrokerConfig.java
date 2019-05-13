@@ -17,7 +17,7 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
  */
 @Configuration
 @EnableWebSocketMessageBroker
-@ComponentScan("chatapp.controllers")
+@ComponentScan("chatappsecure.controllers")
 public class MySocketBrokerConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override

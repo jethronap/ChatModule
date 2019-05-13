@@ -21,9 +21,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @author jnap
  */
 @Configuration
-@ComponentScan("chatapp")
+@ComponentScan("chatappsecure")
 @EnableTransactionManagement
-@EnableJpaRepositories("chatapp.dao")
+@EnableJpaRepositories("chatappsecure.repositories")
 public class MyDataStoreConfig {
 
     //Configuration for embededded data store through H2
@@ -53,7 +53,7 @@ public class MyDataStoreConfig {
         final LocalContainerEntityManagerFactoryBean bean = new LocalContainerEntityManagerFactoryBean();
         bean.setDataSource(dataSource);
         bean.setJpaVendorAdapter(jpaVendorAdapter());
-        bean.setPackagesToScan("com.baeldung.springsecuredsockets");
+        bean.setPackagesToScan("chatappsecure");
 
         //Set properties on Hibernate
         Properties properties = new Properties();

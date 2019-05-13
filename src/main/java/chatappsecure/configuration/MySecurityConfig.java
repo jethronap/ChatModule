@@ -39,7 +39,7 @@ import org.springframework.security.web.authentication.logout.LogoutSuccessHandl
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 @EnableWebSecurity
-@ComponentScan("com.baeldung.springsecuredsockets")
+@ComponentScan("chatsecure")
 public class MySecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
