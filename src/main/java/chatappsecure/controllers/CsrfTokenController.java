@@ -1,4 +1,4 @@
-package chatapp.controllers;
+package chatappsecure.controllers;
 
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.security.web.server.csrf.CsrfToken;

@@ -1,6 +1,6 @@
-package chatapp.repositories;
+package chatappsecure.repositories;
 
-import chatapp.models.User;
+import chatappsecure.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

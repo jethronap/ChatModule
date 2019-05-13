@@ -1,5 +1,9 @@
-package chatapp.configuration;
+package chatappsecure.configuration;
 
+import static chatappsecure.Constants.SECURED_CHAT;
+import static chatappsecure.Constants.SECURED_CHAT_HISTORY;
+import static chatappsecure.Constants.SECURED_CHAT_ROOM;
+import static chatappsecure.Constants.SECURED_CHAT_SPECIFIC_USER;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;

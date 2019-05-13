@@ -1,7 +1,7 @@
-package chatapp.security;
+package chatappsecure.security;
 
-import chatapp.models.User;
-import chatapp.repositories.UserRepository;
+import chatappsecure.models.User;
+import chatappsecure.repositories.UserRepository;
 import java.io.IOException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

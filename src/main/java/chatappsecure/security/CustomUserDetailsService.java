@@ -1,8 +1,9 @@
-package chatapp.security;
+package chatappsecure.security;
 
-import chatapp.models.Role;
-import chatapp.models.User;
-import chatapp.repositories.UserRepository;
+import chatappsecure.models.Role;
+import chatappsecure.models.User;
+import chatappsecure.repositories.UserRepository;
+import chatappsecure.transfer.user.CustomUserDetails;
 import java.util.Collection;
 import java.util.HashSet;
 import org.slf4j.Logger;

@@ -1,5 +1,11 @@
-package chatapp.controllers;
+package chatappsecure.controllers;
 
+import static chatappsecure.Constants.SECURED_CHAT;
+import static chatappsecure.Constants.SECURED_CHAT_HISTORY;
+import static chatappsecure.Constants.SECURED_CHAT_ROOM;
+import static chatappsecure.Constants.SECURED_CHAT_SPECIFIC_USER;
+import chatappsecure.transfer.socket.Message;
+import chatappsecure.transfer.socket.OutputMessage;
 import java.security.Principal;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

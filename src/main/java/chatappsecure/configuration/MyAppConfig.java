@@ -1,4 +1,4 @@
-package chatapp.configuration;
+package chatappsecure.configuration;
 
 import java.sql.SQLException;
 import org.h2.tools.Server;
@@ -24,8 +24,8 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
 @EnableWebMvc
 @EnableJpaRepositories
 @ComponentScan("chatapp")
-@Import({ SecurityConfig.class, DataStoreConfig.class, SocketBrokerConfig.class, SocketSecurityConfig.class })
-public class AppConfig implements WebMvcConfigurer {
+@Import({ SecurityConfig.class, MyDataStoreConfig.class, MySocketBrokerConfig.class, MySocketSecurityConfig.class })
+public class MyAppConfig implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {

@@ -1,5 +1,10 @@
-package chatapp.configuration;
+package chatappsecure.configuration;
 
+import chatappsecure.security.CustomAccessDeniedHandler;
+import chatappsecure.security.CustomDaoAuthenticationProvider;
+import chatappsecure.security.CustomLoginSuccessHandler;
+import chatappsecure.security.CustomLogoutSuccessHandler;
+import chatappsecure.security.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

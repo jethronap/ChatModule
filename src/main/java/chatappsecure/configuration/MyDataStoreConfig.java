@@ -1,4 +1,4 @@
-package chatapp.configuration;
+package chatappsecure.configuration;
 
 import java.util.Properties;
 import javax.persistence.EntityManagerFactory;

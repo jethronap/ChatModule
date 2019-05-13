@@ -1,4 +1,4 @@
-package chatapp.security;
+package chatappsecure.security;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 

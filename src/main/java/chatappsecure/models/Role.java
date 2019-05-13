@@ -1,4 +1,4 @@
-package chatapp.models;
+package chatappsecure.models;
 
 import java.util.Set;
 import javax.persistence.Column;

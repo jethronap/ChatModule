@@ -1,4 +1,4 @@
-package chatapp.security;
+package chatappsecure.security;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
