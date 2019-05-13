@@ -10,7 +10,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
-import org.springframework.data.annotation.Id;
+import javax.persistence.Id;
 
 /**
  *
