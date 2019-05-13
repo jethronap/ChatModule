@@ -1,6 +1,7 @@
 package chatappsockets.controllers;
 
-import chatappsecure.transfer.socket.Message;
+import chatappsockets.configuration.models.Message;
+import chatappsockets.configuration.models.Greeting;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
