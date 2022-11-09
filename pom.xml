@@ -14,7 +14,7 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <hibernate-core.version>5.2.10.Final</hibernate-core.version>
         <spring.version>5.2.22.RELEASE</spring.version>
-        <spring-security.version>5.2.9.RELEASE</spring-security.version>
+        <spring-security.version>5.2.10.RELEASE</spring-security.version>
         <spring-data-jpa.version>2.1.9.RELEASE</spring-data-jpa.version>
         <h2database.version>1.4.196</h2database.version>
         <logback-classic.version>1.2.3</logback-classic.version>
