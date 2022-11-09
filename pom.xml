@@ -12,7 +12,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <hibernate-core.version>5.2.10.Final</hibernate-core.version>
+        <hibernate-core.version>5.4.24.Final</hibernate-core.version>
         <spring.version>5.2.22.RELEASE</spring.version>
         <spring-security.version>5.2.9.RELEASE</spring-security.version>
         <spring-data-jpa.version>2.1.9.RELEASE</spring-data-jpa.version>
